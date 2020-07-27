@@ -1,5 +1,0 @@
-﻿  Source.cpp
-D:\Users\User\source\repos\Project1\Source.cpp(81,40): warning C4838: Преобразование из "u_short" в "UCHAR" требует сужающего преобразования.
-D:\Users\User\source\repos\Project1\Source.cpp(81,40): warning C4244: инициализация: преобразование "u_short" в "UCHAR", возможна потеря данных
-D:\Users\User\source\repos\Project1\Source.cpp(140,48): warning C4244: аргумент: преобразование "uint64_t" в "int", возможна потеря данных
-  Project1.vcxproj -> D:\Users\User\source\repos\Project1\Debug\Project1.exe

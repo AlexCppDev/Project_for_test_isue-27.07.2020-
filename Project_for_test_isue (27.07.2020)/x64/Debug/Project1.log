@@ -1,3 +1,0 @@
-﻿  Main.cpp
-C:\Users\User\source\repos\Project_for_test_isue-27.07.2020-\Project_for_test_isue (27.07.2020)\Main.cpp(138,35): warning C4244: аргумент: преобразование "uint64_t" в "int", возможна потеря данных
-  Project1.vcxproj -> C:\Users\User\source\repos\Project_for_test_isue-27.07.2020-\Project_for_test_isue (27.07.2020)\x64\Debug\Test_issue.exe
