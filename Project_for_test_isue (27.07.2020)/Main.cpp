@@ -73,17 +73,15 @@ std::string NetworkCalc()
 
     if (flag_ip != false && flag_mask != false)
     {
-        uint32_t ipaddress = ntohl(inet_addr(ip_));
-        uint32_t subnetmask = ntohl(inet_addr(mask_));
+        uint32_t ipaddress = inet_addr(ip_);
+        uint32_t subnetmask = inet_addr(mask_);
         uint32_t broadcast = (ipaddress & subnetmask) | ~subnetmask;
 
         uint32_t bytes_broadcast = broadcast;
-        struct in_addr ip_broad { htons(bytes_broadcast) };
-        ip_broad.s_addr;
+        struct in_addr ip_broad;
         ip_broad.S_un.S_addr = bytes_broadcast;
         std::cout << "Result: " << inet_ntoa(ip_broad) << std::endl;
         str = inet_ntoa(ip_broad);
-
     }
     else
     {

@@ -1,0 +1,2 @@
+C:\Users\User\source\repos\Project_for_test_isue-27.07.2020-\Project_for_test_isue (27.07.2020)\x64\Debug\Test_issue.exe
+C:\Users\User\source\repos\Project_for_test_isue-27.07.2020-\Project_for_test_isue (27.07.2020)\x64\Debug\Test_issue.pdb
